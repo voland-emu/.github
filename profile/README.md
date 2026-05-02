@@ -27,6 +27,7 @@ If you're interested in:
 - Compiler design (custom SSA-based IR, structured control flow, tiered compilation)
 - Open-source emulator engineering with strict review standards
 
+The full architecture is documented in DESIGN.md, 23 sections covering the C core, the platform layers, the threading model, storage decisions, JIT integration, and a realistic phase plan. Read that before deciding whether the project is worth your time.
 The technical work is documented thoroughly. Design docs and architectural decisions are visible in the repos.
 
 ## Contributing
