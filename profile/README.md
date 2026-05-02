@@ -13,9 +13,9 @@ Switch 1 is the initial target. Switch 2 support will come once the console is m
 
 ## Status
 
-Pre-alpha. There are no playable games yet. Foundation work is in progress — Ballistic's IR layer, the WebAssembly backend, the runtime integration. Expect a long road before anything is end-user-usable.
+Pre-alpha. There are no playable games yet. Foundation work is in progress, Ballistic's IR layer, the WebAssembly backend, the runtime integration. Expect a long road before anything is end-user-usable.
 
-If you're looking to play Switch games today, use [Ryujinx](https://ryujinx.org/), [Suyu](https://git.suyu.dev/suyu/suyu), or another mature Switch emulator. Voland's eventual value is browser deployment, not faster compatibility — that part takes time to build.
+If you're looking to play Switch games today, use [Ryujinx](https://ryujinx.org/), [Suyu](https://git.suyu.dev/suyu/suyu), or another mature Switch emulator. Voland's eventual value is browser deployment, not faster compatibility, that part takes time to build.
 
 ## Why follow this project
 
@@ -37,8 +37,7 @@ Strict but specific review process. Read [CONTRIBUTING.md](https://github.com/po
 
 - **Discussions** ([github.com/voland-emu/.github/discussions](https://github.com/voland-emu/.github/discussions)) — project-wide topics, governance, RFCs, and meta-questions
 - **Issues** — bugs and feature requests go to the relevant repo's issue tracker
-- **Discord** — [invite link]
-
+- 
 ## About the name
 
 Voland is named for Völundr (also Wayland the Smith in Anglo-Saxon tradition) — the legendary craftsman of Germanic and Norse mythology, master of the forge. The metaphor fits a JIT compiler that builds native machine code from raw foreign instructions.
