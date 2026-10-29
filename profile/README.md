@@ -15,7 +15,7 @@ Switch 1 is the initial target. Switch 2 support will come once the console is m
 
 Pre-alpha. There are no playable games yet, and Voland does not execute guest code yet. Phase 1 (loading and memory) is nearly done: the softmmu, decrypted-NCA and NSO loading with process bootstrap, thread-local storage, the memory SVCs, and minimal IPC with an `sm:` stub have landed, with CI building and testing every PR natively (GCC, Clang, MSVC) and under Emscripten. Next come the wasm32 memory model and input, then the Phase 2 interpreter. `wasm_jit` is fully specified and lands in Phase 5. Expect a long road before anything is end-user-usable.
 
-If you're looking to play Switch games today, use an actively maintained Switch emulator. Voland's eventual value is browser deployment, not faster compatibility, that part takes time to build.
+If you're looking to play Switch games today, use [Eden](https://git.eden-emu.dev/eden-emu/eden) or another actively maintained Switch emulator. Voland's eventual value is browser deployment, not faster compatibility, that part takes time to build.
 
 ## Why follow this project
 
